@@ -1,13 +1,13 @@
 # Engineering-a-Trending-Now-Algorithm-Using-Pyspark
 
 ### About
-
+SoundWave's current "Top Podcasts" chart is based on simple all-time listen counts, which creates a feedback loop where already popular shows remain at the top, making it nearly impossible for new and emerging creators to get noticed. This stale ranking system leads to poor user engagement and creator dissatisfaction.
 
 ### Challenge
-
+The Org needs to replace its static chart with a dynamic "Trending Now" algorithm. This requires an engine that can process millions of daily listening events to not only measure popularity but also capture momentum and velocity. The core challenge is to design and implement a scalable PySpark job that can perform complex time-series analysis, calculate rolling metrics, and apply a weighted scoring formula to produce a fair and engaging ranking.
 
 ### Solution
-
+I as a Senior Data Engineer, on the Content Discovery team, designed and built the core PySpark logic that powers the new "Trending Now" feature. The solution is very efficient, robust, and capable of transforming raw listening data into a ranked list that accurately reflects what's currently capturing listener attention.
 
 ### Details
 
